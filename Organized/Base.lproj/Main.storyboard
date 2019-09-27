@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="I1l-77-nwJ" id="jtD-ht-2zB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Organized" id="NUK-Wg-ckx"/>
+                    <navigationItem key="navigationItem" title="Organized" id="NUK-Wg-ckx">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="2aU-dc-cbS">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="I1l-77-nwJ" id="fz3-bF-Y96"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B3u-xY-8zR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -46,7 +53,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gPZ-66-vPl">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.014944517053663731" green="0.96438127756118774" blue="0.85166651010513306" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.047927968204021454" green="0.2642633318901062" blue="0.89569193124771118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
